@@ -1,6 +1,3 @@
-from tkinter import ALL
-
-
 ALLOWED_STOCKS = [
   'AAPL',
   'GOOGL',
