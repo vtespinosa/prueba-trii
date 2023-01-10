@@ -15,6 +15,9 @@ El endpoint  ```GET /historical_data```, el cual se encuentra en la branch ```ma
 * ```start```: fecha desde la cual se quiere obtener la información. Tiene que ser entregada en el formato YYYY-MM-DD
 * ```end```: fecha hasta la cual se quiere obtener la información. Tiene que ser entregada en el formato YYYY-MM-DD
 
+Un ejemplo de una request que se puede realizar en postman es:
+`http://localhost:8000/historical_data?stock=AAPL&start=2022-12-28&end=2022-12-31`
+
 ## Segundo punto
 
 El script stocks_info.py, el cual se encuentra en la branch ```cli-script``` está encargado de obtener la información de todas las acciones listadas y sus respectivas empresas. Para correr el script se debe ejecutar lo siguiente:
